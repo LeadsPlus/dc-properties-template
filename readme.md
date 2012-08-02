@@ -46,7 +46,7 @@ CSS rules are set in two files:
 
 ## Javascript interaction
 
-All of the external javascript libraries to make the map interactive and connect it to MapBox are stored in the `ext` directory. For this template, we're using [Modest Maps](http://modestmaps.com/) and [Wax](http://mapbox.com/wax) to make the map interactive, [Easey](https://github.com/mapbox/easey) for smooth aninmated panning and zooming, and [MMG](http://mapbox.com/mmg/) for adding markers to the map based on [geojson](http://www.geojson.org/)-formatted data. We're also using [jQuery](http://jquery.com/) for DOM manipulation and handling events.
+All of the external javascript libraries to make the map interactive and connect it to MapBox are stored in the `ext` directory. For this template, we're using [Modest Maps](http://modestmaps.com/) and [Wax](http://mapbox.com/wax) to make the map interactive, [Easey](https://github.com/mapbox/easey) for smooth aninmated panning and zooming, and [Markers.js](http://mapbox.com/markers.js/) for adding markers to the map based on [geojson](http://www.geojson.org/)-formatted data. We're also using [jQuery](http://jquery.com/) for DOM manipulation and handling events.
 
 An internal javascript library, `script.js`, abstracts common map settings, and includes configuration for layer switching controls and a geocoding address search.
 
@@ -178,7 +178,7 @@ By specifying `data-control="gecode"` on the `div` containing your `form`, `scri
 
 * [MapBox API](http://mapbox.com/hosting/api/)
 * [MapBox Wax](http://mapbox.com/wax/)
-* [MapBox MMG](http://mapbox.com/mmg/)
+* [MapBox markers.js](http://mapbox.com/markers.js/)
 * [MapBox Easey](http://mapbox.com/easey/)
 * [Modest Maps](http://modestmaps.com/)
 * [jQuery](http://jquery.com/)
